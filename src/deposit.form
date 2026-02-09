@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="deposit">
+  <grid id="27dc6" binding="jpanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="764" height="790"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="fad0e" binding="jpanel1" layout-manager="FormLayout">
+        <rowspec value="center:70px:grow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b4003" class="javax.swing.JLabel" binding="jlabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <font name="Algerian" size="28" style="1"/>
+              <text value="Deposit Amount"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="8ffe4" binding="jpanel2" layout-manager="FormLayout">
+        <rowspec value="center:32px:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:12dlu:noGrow"/>
+        <rowspec value="center:53px:noGrow"/>
+        <colspec value="fill:50px:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:136px:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:200px:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:342px:grow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:max(d;4px):noGrow"/>
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="65c90" class="javax.swing.JLabel" binding="accounth">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="0"/>
+              <text value="Account No."/>
+            </properties>
+          </component>
+          <component id="b40c9" class="javax.swing.JTextField" binding="searchaccount">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="db268" class="javax.swing.JLabel" binding="notification">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <font name="Brush Script MT" size="28" style="3"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="7ffb" class="javax.swing.JButton" binding="submitButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="1"/>
+              <text value="submit"/>
+            </properties>
+          </component>
+          <component id="a7c5a" class="javax.swing.JButton" binding="backButton1" default-binding="true">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="1"/>
+              <text value="back"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="89871" binding="jpanel3" layout-manager="FormLayout">
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <rowspec value="top:10dlu:noGrow"/>
+        <rowspec value="center:67px:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:209px:noGrow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:164px:noGrow"/>
+        <colspec value="fill:50px:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:171px:noGrow"/>
+        <colspec value="left:5dlu:noGrow"/>
+        <colspec value="fill:250px:noGrow"/>
+        <colspec value="left:4dlu:noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="28acd" class="javax.swing.JLabel" binding="csnamelabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="0"/>
+              <text value="Customer Name"/>
+            </properties>
+          </component>
+          <component id="3227b" class="javax.swing.JLabel" binding="nameoutput">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="16" style="3"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8291d" class="javax.swing.JLabel" binding="amount">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="0"/>
+              <text value="Amount"/>
+            </properties>
+          </component>
+          <component id="4e92c" class="javax.swing.JTextField" binding="amounttextField1">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <forms defaultalign-horz="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="7d328" class="javax.swing.JButton" binding="submitButton1" default-binding="true">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="1"/>
+              <text value="Submit"/>
+            </properties>
+          </component>
+          <component id="57055" class="javax.swing.JButton" binding="backButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="20" style="1"/>
+              <text value="back"/>
+            </properties>
+          </component>
+          <grid id="f4bb3" binding="jpanel4" layout-manager="FormLayout">
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:max(d;4px):noGrow"/>
+            <rowspec value="top:4dlu:noGrow"/>
+            <rowspec value="center:d:grow"/>
+            <colspec value="fill:d:grow"/>
+            <colspec value="left:4dlu:noGrow"/>
+            <colspec value="fill:251px:noGrow"/>
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+              <forms defaultalign-vert="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="3bbfc" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial Rounded MT Bold" size="24" style="1"/>
+                  <text value="Transaction Succewssful.."/>
+                </properties>
+              </component>
+              <component id="4f9a1" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial Black" size="18" style="1"/>
+                  <text value="Customer Name"/>
+                </properties>
+              </component>
+              <component id="f05d8" class="javax.swing.JLabel" binding="customer">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <font name="Arial Narrow" size="18" style="3"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="e8cec" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <font name="Arial Black" size="18" style="1"/>
+                  <text value="Account No."/>
+                </properties>
+              </component>
+              <component id="7815f" class="javax.swing.JLabel" binding="accno">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <font name="Arial Narrow" size="18" style="3"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="dca18" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <font name="Arial Black" size="18" style="1"/>
+                  <text value="Amount"/>
+                </properties>
+              </component>
+              <component id="430b0" class="javax.swing.JLabel" binding="alabel">
+                <constraints>
+                  <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <font name="Arial Narrow" size="18" style="3"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="615ac" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <font name="Arial Black" size="18" style="1"/>
+                  <text value="Total Amount"/>
+                </properties>
+              </component>
+              <component id="8d75e" class="javax.swing.JLabel" binding="tamo">
+                <constraints>
+                  <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms/>
+                </constraints>
+                <properties>
+                  <font name="Arial Narrow" size="18" style="3"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="34311" class="javax.swing.JButton" binding="backButton2" default-binding="true">
+                <constraints>
+                  <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                  <forms defaultalign-horz="false"/>
+                </constraints>
+                <properties>
+                  <font name="Arial Black" size="20" style="1"/>
+                  <text value="Back"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
