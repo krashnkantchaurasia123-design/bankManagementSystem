@@ -40,6 +40,7 @@ public class withdraw extends JFrame{
 
         setVisible(true);
         setSize(1380,725);
+        setTitle("Bank Management System");
 
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         jpanel1.setBackground(new Color(20, 16, 77));

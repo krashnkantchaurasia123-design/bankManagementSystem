@@ -4,9 +4,9 @@ A desktop-based Bank Management System developed using **Java Swing** and **File
 
 ## 🚀 Features
 - Create new bank account
-- Search account by account number
-- Deposit money
-- Withdraw money
+- Search account by account Number
+- Deposit money by account Number
+- Withdraw money by account Number
 - Data stored using file handling
 
 ## 🛠️ Technologies Used

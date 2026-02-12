@@ -21,7 +21,7 @@ public class accounthistory extends JFrame {
     accounthistory(JFrame homeFrame) {
         setVisible(true);
 
-
+        setTitle("Bank Management System");
         setSize(1380,725);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         jpanel1.setBackground(new Color(20, 16, 77));

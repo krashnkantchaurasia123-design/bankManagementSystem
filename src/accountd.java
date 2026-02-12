@@ -36,7 +36,7 @@ public class accountd extends JFrame implements Serializable{
 
     accountd(JFrame homeFrame) {
 
-        setTitle("Account Detail");
+        setTitle("Bank Management System");
         jpanel1.setBackground(new Color(20, 16, 77));
         heading.setForeground(new Color(255, 255, 255));
         textField1.setPreferredSize(new Dimension(300, 25));

@@ -27,7 +27,7 @@ public class balance extends JFrame implements Serializable {
     JFrame homeFrame;
     balance(JFrame homeFrame){
         this.homeFrame=homeFrame;
-        setTitle("Balance Check");
+        setTitle("Bank Management System");
         setVisible(true);
         setSize(1380,725);
 

@@ -19,6 +19,7 @@ public class mainBank extends JFrame {
     private JButton transictionHistoryButton;
     private JButton signOutButton;
     private JLabel jlabel;
+    private JSeparator jseparator;
     private JFrame jframe;
 
 
@@ -33,7 +34,10 @@ public class mainBank extends JFrame {
         jpanel1.setBackground(new Color(20, 16, 77));
         jlabel.setForeground(new Color(255,255,255));
 
+        jseparator.setBackground(new Color(20, 26, 77));
 
+
+        createAccountButton.setPreferredSize(new Dimension(400,70));
         createAccountButton.setBackground(new Color(20, 26, 77));
         createAccountButton.setForeground(new Color(255,255,255));
         createAccountButton.addMouseListener(new MouseAdapter() {
@@ -60,6 +64,7 @@ public class mainBank extends JFrame {
             }
         });
 
+        depositButton.setPreferredSize(new Dimension(400,70));
         depositButton.setBackground(new Color(20, 26, 77));
         depositButton.setForeground(new Color(255,255,255));
         depositButton.addMouseListener(new MouseAdapter() {
@@ -86,6 +91,8 @@ public class mainBank extends JFrame {
                 }
             }
         });
+
+        withdrawlButton.setPreferredSize(new Dimension(400,70));
         withdrawlButton.setBackground(new Color(20, 26, 77));
         withdrawlButton.setForeground(new Color(255,255,255));
         withdrawlButton.addActionListener(new ActionListener() {
@@ -111,6 +118,7 @@ public class mainBank extends JFrame {
 
         });
 
+        balanceCheckButton.setPreferredSize(new Dimension(400,70));
         balanceCheckButton.setBackground(new Color(20, 26, 77));
         balanceCheckButton.setForeground(new Color(255,255,255));
         balanceCheckButton.addMouseListener(new MouseAdapter() {
@@ -136,6 +144,7 @@ public class mainBank extends JFrame {
             }
         });
 
+        accountDetailButton.setPreferredSize(new Dimension(400,70));
         accountDetailButton.setBackground(new Color(20, 26, 77));
         accountDetailButton.setForeground(new Color(255,255,255));
         accountDetailButton.addMouseListener(new MouseAdapter() {
@@ -163,6 +172,8 @@ public class mainBank extends JFrame {
             }
 
         });
+
+        transictionHistoryButton.setPreferredSize(new Dimension(400,70));
         transictionHistoryButton.setBackground(new Color(20, 26, 77));
         transictionHistoryButton.setForeground(new Color(255,255,255));
         transictionHistoryButton.addActionListener(new ActionListener() {
@@ -187,6 +198,7 @@ public class mainBank extends JFrame {
 
         });
 
+        signOutButton.setPreferredSize(new Dimension(400,70));
         signOutButton.setBackground(new Color(20, 26, 77));
         signOutButton.setForeground(new Color(255,255,255));
         signOutButton.addMouseListener(new MouseAdapter() {
@@ -213,5 +225,9 @@ public class mainBank extends JFrame {
 
     static void main() {
         new mainBank();
+    }
+
+    private void createUIComponents() {
+        // TODO: place custom component creation code here
     }
 }
